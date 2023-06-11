@@ -1,0 +1,78 @@
+* {
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+    height: 80vh;
+}
+svg{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 90vh;
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+    bottom: 410px;
+    left: 500px;
+    border-radius: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    z-index: 2;
+}
+.image{
+    height: 250px;
+}
+#box2{
+    margin-top: -100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.bod{
+    font-weight: 900;
+    text-align: center;
+    font-size: 22px;
+}
+.bid{
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+.box3{
+    height: 70px;
+    background-color: hsl(225, 100%, 97%);
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+.icon{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.tex{
+    position: relative;
+    bottom: 45px;
+}
+.rait{
+    text-align: right;
+    position: relative;
+    bottom: 82px;
+    right: 10px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+.box4{
+    height: 35px;
+    background-color:hsl(245, 75%, 52%);
+    margin-top: -45px;
+    padding-top: 0.02px;
+    color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 5px hsl(225, 100%, 94%);
+}
